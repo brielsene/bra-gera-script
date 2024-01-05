@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brad Gera Scripts - CHG</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <h1>CHG - Gera Scripts</h1>
+    <h2>Preencha os Dados</h2>
+    <img src="../assets/brad-logo.png" alt="">
+    <div>
+        <form action="/submit" method="post">
+            <label for="nome">Nome do Requisitante:</label>
+            <input type="text" id="nome" name="nome" required><br>
+    
+            <label for="rdm">RDM:</label>
+            <input type="text" id="rdm" name="rdm" required><br>
+    
+            <label for="firewall">Firewall:</label>
+            <select id="firewall" name="firewall" required>
+                {{ range . }}
+                    <option value="{{ .Nome }}">{{ .Nome }}</option>
+                {{ end }}
+            </select><br>
+    
+            <!-- <label for="managerIp">Manager(IP):</label>
+            <input type="text" id="managerIp" name="managerIp" required><br> -->
+    
+            <label for="numeroDoTicket">Número do Ticket:</label>
+            <input type="text" id="numeroDoTicket" name="numeroDoTicket" required><br>
+    
+            <button class="submit-button" type="submit">Gerar Arquivo</button>
+        </form>
+    </div>
+    
+</body>
+</html>

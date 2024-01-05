@@ -1,0 +1,119 @@
+/* body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #ddd;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #fff;
+}
+
+form {
+    max-width: 400px;
+    width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #ec1c24;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c8101b;
+} */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #ddd;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #fff;
+}
+
+form {
+    max-width: 400px;
+    width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #ec1c24;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* Ocupar toda a largura */
+}
+
+button:hover {
+    background-color: #c8101b;
+}
+
+/* Adicionando uma classe ao form para centralizar o botão */
+form .button-container {
+    text-align: center;
+}
+
+img{
+    width: 250px;
+}
