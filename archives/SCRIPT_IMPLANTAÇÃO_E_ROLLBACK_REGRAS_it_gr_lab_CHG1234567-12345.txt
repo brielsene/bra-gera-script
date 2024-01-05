@@ -1,0 +1,27 @@
+! Nome: Gabriel
+!RDM: CHG1234567
+!Data: 04/01/2024
+
+##############################################
+#
+# CMA PRIMÁRIA - 10.10.10.10
+#
+##############################################
+
+01 - Salvar o Database Version.
+02 - Aplicar política no firewall da it_gr_lab(Manager 10.10.10.10)
+
+**************************************************************************************
+			>>>>>>>>>> RETORNO <<<<<<<<<<
+**************************************************************************************
+
+##############################################
+#
+# CMA PRIMÁRIA - 10.10.10.10
+#
+##############################################
+
+1 - Acessa a Dashboard do Firewall CheckPoint R80.40
+02 - clicar em Installation History
+03 - Selecionar a Policy Installations (Procurar a última política aplicada)
+04 - clicar em Install Specific Version
