@@ -93,6 +93,9 @@ func generateFileContent(chg models.Chg) string {
 		"# CMA PRIMÁRIA - " + managerIp + "\n" +
 		"#\n" +
 		"##############################################\n\n" +
+		"*************************************\n" +
+		"****** I M P L A N T A T I O N ******\n" +
+		"*************************************\n\n" +
 		"01 - Salvar o Database Version.\n" +
 		"02 - Aplicar política no firewall da " + nome + "(Manager " + managerIp + ")\n\n" +
 		"**************************************************************************************\n" +

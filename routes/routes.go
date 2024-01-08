@@ -17,6 +17,6 @@ func HandleRequests() {
 	// r.GET("/download", controllers.DownloadArquivo)
 	r.GET("/download", controllers.DownloadArquivo)
 
-	r.Run(":8080")
+	r.Run(":8000")
 
 }
